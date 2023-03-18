@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("pic3.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 930px;
+    overflow: hidden;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background: rgb(238, 253, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 18px rgb(68, 68, 68);
+    border: 1px solid;
+
+    transition: bottom 1s, left 1s;
+}
+
+.center:hover {
+    left: 25%;
+  }
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver ;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    
+}
+form .txtfield{
+    position: relative;
+    padding: 8px;
+    border: none;
+}
+.txtfield input{
+    padding: 0 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border-bottom: #bbbbbb;
+    background: rgba(145, 145, 145, 0.13);
+    outline: none;
+    font-size: 16px;
+}
+.pswrdf{
+    color: gray;
+    margin: -5px 20px 5px;
+    cursor: pointer;
+}
+.pswrdf:hover{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 8 solid;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: rgb(62, 111, 175);
+    color: snow;
+    border-color: #666666;
+    font-weight: 700;
+    cursor: pointer;
+}
+.signup{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.signup a{
+    text-decoration: none;
+    color: rgb(81, 78, 248);
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+.images{
+    width: 52.5%;
+    height: 93%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .pic1{
+    left: 45%;
+}
