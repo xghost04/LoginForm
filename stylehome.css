@@ -71,6 +71,12 @@ span{
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
 .images:hover .pic2{
     bottom: 40px;
 }
