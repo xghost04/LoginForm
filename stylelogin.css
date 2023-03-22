@@ -100,3 +100,11 @@ input[type="submit"]{
 .images:hover .pic1{
     left: 45%;
 }
+.video{
+    width: 102%;
+    height: 110%;
+    position: absolute;
+    bottom: 0;
+    right: 0.5;
+    z-index: -1;
+}

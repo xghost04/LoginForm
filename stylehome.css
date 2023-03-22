@@ -7,7 +7,6 @@
     position: relative;
     width: 100;
     height: 100vh;
-    background: white;
 }
 nav{
     display: flex;
@@ -24,7 +23,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 nav ul li a:hover{
@@ -43,7 +42,7 @@ span{
     color: rgb(255, 68, 44);
 }
 .detail p{
-    color: #555;
+    color: #929292;
     line-height: 20px;
 }
 .detail a{
@@ -73,4 +72,12 @@ span{
 }
 .images:hover .pic1{
     left: 45%;
+}
+.video{
+    width: 102%;
+    height: 110%;
+    position: absolute;
+    bottom: 0;
+    right: 0.5;
+    z-index: -1;
 }
